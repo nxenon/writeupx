@@ -1,6 +1,6 @@
-# 📰 WriteUp App
+# 📰 WriteUpX App
 
-## 👀 ʀᴇQᴜɪʀᴇᴍᴇɴᴛꜱ :
+## 👀 Requirements :
 ```yaml
 - name : Python
     - type    : Programming Language
@@ -21,7 +21,7 @@
     - type : Distro
 ```
 
-## 🦾 ꜰᴇᴀᴛᴜʀᴇꜱ:
+## 🦾 Features:
 ```yaml
 - name : Social
     - Description : This App Will Send New Available WriteUps To [ Telegram ]
@@ -40,11 +40,11 @@
 ```yaml
 - Step One :
     - Description : Clone Repository
-    - Command     : git clone https://github.com/JesusKian/WriteUp.git
+    - Command     : git clone https://github.com/nxenon/writeupx.git
 
 - Step Two :
     - Description : Go To Project's Directory
-    - Command     : cd WriteUp
+    - Command     : cd writeupx
 
 - Step Three :
     - Description : You Must Run Config Files
@@ -90,14 +90,13 @@ TELEGRAM_API=YOUR_TELEGRAM_API
 CHANNEL_NAME=@YOUR_CHANNEL_ID
 ```
 
-## ⚡️ Automate WriteUp Sender
+## ⚡️ Automate Write Up Sender
 ```yaml
 - name : Crontab
     - Description : You Can Automate Process to Run main.go File
     - Example : With Below Code, You Can Run main.go Every 1 Hours
-    - Command : 0 */1 * * * /usr/bin/go /PATH/TO/WriteUp/main.go
+    - Command : 0 */1 * * * /usr/bin/go /PATH/TO/writeupx/main.go
     - Resource : https://geekflare.com/crontab-linux-with-real-time-examples-and-tools/
 ```
 
-## 📹 Watch Video Below
-[![asciicast](https://asciinema.org/a/jDtA4QHs0s4zKJDXOdUK7dVdu.svg)](https://asciinema.org/a/jDtA4QHs0s4zKJDXOdUK7dVdu)
+- This repo has been forked from user: [JesusKian](https://github.com/JesusKian)
