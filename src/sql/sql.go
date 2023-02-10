@@ -1,10 +1,10 @@
 package sql
 
 import (
-	"github.com/JesusKian/WriteUp/src/config"
-	"github.com/JesusKian/WriteUp/src/structure"
-	"github.com/JesusKian/WriteUp/src/telegram"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/nxenon/writeupx/src/config"
+	"github.com/nxenon/writeupx/src/structure"
+	"github.com/nxenon/writeupx/src/telegram"
 
 	"bufio"
 	"database/sql"

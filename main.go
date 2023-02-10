@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/JesusKian/WriteUp/src/config"
-	"github.com/JesusKian/WriteUp/src/request"
-	_ "github.com/JesusKian/WriteUp/src/sql"
+	"github.com/nxenon/writeupx/src/config"
+	"github.com/nxenon/writeupx/src/request"
+	_ "github.com/nxenon/writeupx/src/sql"
 
 	"bufio"
 	"os"
@@ -11,9 +11,9 @@ import (
 
 func main() {
 	var (
-		scanner *bufio.Scanner  = &bufio.Scanner{}
-		file    *os.File        = &os.File{}
-		err     error           = nil
+		scanner *bufio.Scanner = &bufio.Scanner{}
+		file    *os.File       = &os.File{}
+		err     error          = nil
 	)
 
 	file, err = os.Open("./static/txt/urls.txt")

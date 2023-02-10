@@ -1,9 +1,9 @@
 package request
 
 import (
-	"github.com/JesusKian/WriteUp/src/config"
-	"github.com/JesusKian/WriteUp/src/sql"
-	"github.com/JesusKian/WriteUp/src/structure"
+	"github.com/nxenon/writeupx/src/config"
+	"github.com/nxenon/writeupx/src/sql"
+	"github.com/nxenon/writeupx/src/structure"
 
 	"encoding/xml"
 	"fmt"

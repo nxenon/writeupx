@@ -1,4 +1,4 @@
-module github.com/JesusKian/WriteUp
+module github.com/nxenon/writeupx
 
 go 1.19
 

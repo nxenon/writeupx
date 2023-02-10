@@ -1,7 +1,7 @@
 package telegram
 
 import (
-	"github.com/JesusKian/WriteUp/src/config"
+	"github.com/nxenon/writeupx/src/config"
 
 	"bytes"
 	"encoding/json"
