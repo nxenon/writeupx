@@ -12,7 +12,6 @@ var (
 	logFile        *os.File = &os.File{}
 	err            error    = nil
 	PWD            string   = ""
-	DiscordWebhook string   = ""
 	TelegramApi    string   = ""
 	ChannelName    string   = ""
 
@@ -65,7 +64,6 @@ func SetLog(_logType string, _msg string) {
 
 func ReadENV() {
 	godotenv.Load("config.env")
-	DiscordWebhook = os.Getenv("DISCORD_WEBHOOK")
 	TelegramApi = os.Getenv("TELEGRAM_API")
 	ChannelName = os.Getenv("CHANNEL_NAME")
 }

@@ -24,7 +24,7 @@
 ## 🦾 ꜰᴇᴀᴛᴜʀᴇꜱ:
 ```yaml
 - name : Social
-    - Description : This App Will Send New Available WriteUps To [ Discord , Telegram ]
+    - Description : This App Will Send New Available WriteUps To [ Telegram ]
 
 - name : resource
     - Description : WriteUps Will Send From Diffrent Tags Of medium.com
@@ -87,7 +87,6 @@
 ## ⚙️ Config .env File
 ```yaml
 TELEGRAM_API=YOUR_TELEGRAM_API
-DISCORD_WEBHOOK=YOUR_DISCORD_WEBHOOK
 CHANNEL_NAME=@YOUR_CHANNEL_ID
 ```
 

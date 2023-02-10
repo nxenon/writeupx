@@ -2,7 +2,6 @@ package sql
 
 import (
 	"github.com/JesusKian/WriteUp/src/config"
-	"github.com/JesusKian/WriteUp/src/discord"
 	"github.com/JesusKian/WriteUp/src/structure"
 	"github.com/JesusKian/WriteUp/src/telegram"
 	_ "github.com/go-sql-driver/mysql"
@@ -70,7 +69,6 @@ func DatabaseStatus() {
 }
 
 func SendWriteUp(_title, _link, _pubDate string) {
-	discord.Send(_title, _link, _pubDate)
 	telegram.Send(_title, _link, _pubDate)
 }
 
