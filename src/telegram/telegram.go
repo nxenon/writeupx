@@ -15,11 +15,12 @@ func Send(_title, _link, _pubDate string) {
 		resp *http.Response = &http.Response{}
 		body []byte         = []byte{}
 		url  string         = fmt.Sprintf("https://api.telegram.org/bot%s/sendMessage", config.TelegramApi)
-		text string         = fmt.Sprintf(`	      📰 %s
+		text string         = fmt.Sprintf(`	      
+	   ⚫️ %s
 		
-		📅 %s
+	   📅 %s
 		
-		🔗 %s`, _title, _pubDate, _link)
+	   🔗 %s`, _title, _pubDate, _link)
 	)
 
 	body, _ = json.Marshal(map[string]interface{}{
